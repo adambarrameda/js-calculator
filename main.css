@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(36, 44, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.calculator {
+    width: 480px;
+    background-color: black;
+}
+
+.display {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.result {
+    margin: 0;
+    padding: 20px;
+    color: white;
+    font-size: 2.5em;
+}
+
+.input {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3px;
+}
+
+.input button {
+    font-size: 2.5em;
+    height: 120px;
+    border: none;
+    background-color: grey;
+}
+
+.input .operation {
+    background-color: orange;
+    color: white;
+}
+
+.clear {
+    grid-column: span 2;
+}
+
+.zero {
+    grid-column: span 3;
+}
