@@ -24,6 +24,7 @@ body {
     padding: 20px;
     color: white;
     font-size: 2.5em;
+    font-family: monospace;
 }
 
 .input {
@@ -45,6 +46,10 @@ body {
     color: white;
 }
 
+.input .clicked {
+    background-color: lightsalmon;
+}
+
 .clear {
     grid-column: span 2;
 }
@@ -52,3 +57,4 @@ body {
 .zero {
     grid-column: span 3;
 }
+
